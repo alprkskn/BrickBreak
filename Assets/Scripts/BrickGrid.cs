@@ -1,15 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BrickGrid : MonoBehaviour {
+public class BrickGrid : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public const float BRICK_WIDTH = 0.75f;
+    public const float BRICK_HEIGHT = 0.5f;
+
 }
